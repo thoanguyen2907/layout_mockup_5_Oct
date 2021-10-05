@@ -1,0 +1,166 @@
+/*RESET*/
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+/*HEADER*/
+.img-header img {
+  width: 250px;
+  margin: 15px;
+  display: inline-block;
+}
+.header .header-ul {
+  background-color: rgb(41, 38, 38);
+}
+.header .header-ul ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.header .header-ul ul li {
+  display: inline-block;
+  padding: 15px 0 15px 15px;
+}
+.header .header-ul ul li a {
+  color: white;
+  font-size: 20px;
+  text-decoration-line: none;
+}
+/*CAROUSEL*/
+.carousel {
+  background-image: url("../img/slider_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+}
+.products {
+  font-size: 0;
+  margin-top: 30px;
+}
+.products h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0;
+}
+.product__item {
+  display: inline-block;
+  width: 25%;
+  padding: 0 10px;
+}
+.product__item > div {
+  margin-bottom: 20px;
+}
+.product__item img {
+  width: 100%;
+  display: block;
+}
+.product__item .product__title {
+  font-size: 22px;
+  font-weight: bold;
+}
+.product__item .product__detail {
+  font-size: 16px;
+}
+.product__item .product__title,
+.product__item .product__detail {
+  margin-bottom: 15px;
+}
+.detail-btn {
+  font-size: 12px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/*BANNER*/
+.banner {
+  background-image: url("../img/nature.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  margin-top:50px; 
+}
+.banner__circle {
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  background-color: rgba(124, 34, 34, 0.856);
+  padding: 40px 65px;
+  border-radius: 50%;
+}
+.banner__circle > p {
+  color: white;
+  margin: 0 0 15px; 
+  text-align: center;
+}
+.banner__circle p:nth-child(1) {
+  font-size: 30px;
+  margin: 0; 
+}
+.banner__circle p:nth-child(3), .banner__circle p:nth-child(4) {
+  font-size: 20px;
+
+}
+.banner__circle p:nth-child(2) {
+  font-size: 80px;
+  margin: 0; 
+}
+/*SERVICE*/
+
+.services {
+  font-size: 0;
+  text-align: center;
+  margin-top: 30px; 
+}
+.service-list {
+  display: inline-block;
+  width: 25%;
+  font-size: 20px;
+}
+/*FOOTER*/
+.footer {
+  background-color: black;
+  margin-top: 20px;
+}
+.footer-detail {
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  line-height: 10px;
+}
+/*INTRO*/
+.intro p {
+  font-size: 20px;
+  margin: 25px 0 40px;
+}
+.intro span {
+  color: red;
+  font-weight: bold;
+}
+
+.intro__content {
+  font-size: 0;
+}
+.intro__content .intro__left,
+.intro__content .intro__right {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+.intro__item.intro_smallitem {
+  display: inline-block;
+  width: 50%;
+}
+.intro__item {
+  padding: 0 15px 25px;
+}
+.intro__item img {
+  width: 100%;
+  display: block;
+}
